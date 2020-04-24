@@ -21,5 +21,4 @@ while(sentence[i])
         }
         cout<<sentence<<endl;
     }
-
 }
