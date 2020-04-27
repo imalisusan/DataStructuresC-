@@ -1,15 +1,18 @@
 #include<iostream>
 using namespace std;
-int rectangle_area(int length, int width)
+    // Area of a  Rectangle
+    int rectangle_area(int length, int width)
     {
        int area_rectangle=length*width; 
        return area_rectangle;
     }
+    // Area of a  Triangle
     int triangle_area(int base, int height)
     {
        int area_triangle=0.5*base*height; 
        return area_triangle;
     }
+    // Area of a  Circle
     int circle_area(int radius)
     {
         int area_circle=3.142*radius*radius;
